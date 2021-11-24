@@ -182,7 +182,6 @@ for tdate in get_tdate_list():
                         
                             web.find_element_by_xpath('//*[@id="EmailButton"]').click()
                             email = web.find_element_by_xpath('//*[@id="RecipientEmailAddress"]')
-                            #email.send_keys('ocarson@awtxlaw.com')
                             email.send_keys('yadayada@gmail.com')
                             web.find_element_by_xpath('//*[@id="EmailSendForm"]/button[2]').click()
                             time.sleep(1)
